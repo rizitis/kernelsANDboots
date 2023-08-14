@@ -1,0 +1,4 @@
+# aaa_kernels start
+if [ -x /etc/rc.d/aaa_kernels.sh ]; then
+         bash /etc/rc.d/aaa_kernels.sh 
+        fi
