@@ -61,7 +61,7 @@ exit
 elif
 echo "zzz_kernels: KERNEL WAS UPDATED, DOING STUFF..."
 then
-cp "$DIR1"/"$FILE*" "$DIR"/
+cp "$DIR1"/"$FILE"* "$DIR"/
 cp -a "$DIR1"/"$KERNEL2" "$DIR3"
 rm -r "$DIR"
 echo ""
