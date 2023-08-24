@@ -49,13 +49,13 @@ wait
 # Taking vmlinuz-* backup
 cp "$DIR1"/"$FILE1"* "$DIR"/ 
 wait
+rm "$DIR"/vmlinuz-generic
 # backup modules 
 cp -a "$DIR3"/"$KERNEL2" "$DIR"/ 
 wait
-rm "$DIR"/*-huge
+rm "$DIR"/vmlinuz-huge
 echo ""
 echo "aaa_kernels DB CREATED OK"
 echo ""
 fi
-
 
